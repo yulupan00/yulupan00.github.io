@@ -27,19 +27,22 @@
                       North Carolina at Chapel Hill in the Department of
                       Computer Science.<br>
                       <p>I'm currently working with <a
-                          href="https://www.gedasbertasius.com/"> Prof. Gedas
-                          Bertasius</a> on  AI
-                          for sports, fine-grained skill analysis and video understanding. I'm also a research assistant at <a
-                          href="https://zylkalab.org/">Zylka lab</a> on
-                        developing computer vision models for spontaneous pain
-                        measurement from mouse.</p>
+                          href="https://www.gedasbertasius.com/">Prof. Gedas
+                          Bertasius</a> on video understanding and AI for
+                        sports. I build large-scale video benchmarks and datasets
+                        &mdash; BASKET, ExAct, and SVI-Bench &mdash; that push
+                        models from fine-grained skill recognition toward
+                        higher-level causal and strategic reasoning.</p>
                     </p>
                     <p>Previously, I graduated from UNC in May 2023 with a B.S. in Computer
                       Science and a B.A. in Mathematics, and received
                       M.S. in Computer Science in May 2025. I worked with <a
                         href="https://www.cs.unc.edu/~ronisen/">Prof. Roni
                         Sengupta</a> on computer vision during my undergraduate
-                      studies.
+                      studies. I was also a research assistant at the <a
+                        href="https://zylkalab.org/">Zylka lab</a>, developing
+                      computer vision models for spontaneous pain measurement in
+                      mice.
                     </p>
 
                     <p style="text-align:center">
@@ -68,10 +71,11 @@
                     <heading>Research</heading>
                     <p>
                       I'm interested in <b>Computer Vision</b>,
-                      <b>Video Understanding</b>, and <b>AI for Sports</b>. My current
-                      focus is on fine-grained video understanding, particularly in
-                      the areas of sports analytics. I'm interested in how to leverage AI to 
-                      improve the understadning of complex, fine-grained human action in sports.
+                      <b>Video Understanding</b>, <b>Video Reasoning</b>, and
+                      <b>AI for Sports</b>. My current focus is on video reasoning
+                      for sports &mdash; building large-scale benchmarks that move
+                      models beyond fine-grained skill recognition toward causal,
+                      strategic, and agentic reasoning about complex human actions.
                     </p>
                   </td>
                 </tr>
@@ -84,12 +88,51 @@
 
                   <table
                     style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                      
+
+                      <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="one">
+                          <div class="two" id="basket_image">
+                            <img src="images/svi_bench.jpg" alt="SVI-Bench img">
+                          </div>
+                        </div>
+
+                      </td>
+
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                      <a href="https://svi-bench.github.io/">
+                        <papertitle>SVI-Bench: A Dynamic Microworld for Strategic Video Intelligence</papertitle>
+                      </a>
+                      <br>
+                      <strong>Yulu Pan</strong>, Han Yi, Seongsu Ha, Md Mohaiminul Islam, Benjamin Zhang, Lorenzo Torresani, Gedas Bertasius
+                      <br>
+                      <em>arXiv, 2026</em>
+                      <br>
+                      <a href="https://svi-bench.github.io/"
+                        target="+black">Project Page</a>
+                      /
+                      <a href="https://arxiv.org/abs/2605.31529"
+                        target="_blank">Paper</a>
+                      /
+                      <a href="https://github.com/texaser/svi-bench"
+                        target="+black">Code</a>
+                      <p></p>
+                      <p>
+                        We introduce SVI-Bench, a dynamic microworld for strategic video intelligence built on team sports.
+                        It comprises ~35K hours of broadcast video, 15M annotated actions, and aligned commentary and
+                        statistics across basketball, soccer, and hockey. Spanning nine tasks across four pillars&mdash;dynamic
+                        scene understanding, causal reasoning, strategic simulation, and agentic synthesis&mdash;it reveals a
+                        sharp performance drop at higher cognitive levels: top models reach ~73% on action-based questions
+                        but only 5% on agentic tasks that require autonomously gathering evidence across 1.8M clips.
+                      </p>
+                    </td>
+                  </tr>
+
                       <td style="padding:20px;width:25%;vertical-align:middle">
                         <div class="one">
                           <div class="two" id="basket_image">
                             <img src="images/exact.png" alt="exact img">
-                          </div>                          
+                          </div>
                         </div>
 
                       </td>
@@ -102,7 +145,7 @@
                       <br>
                       Han Yi, <strong>Yulu Pan</strong>, Feihong He, Xinyu Liu, Benjamin Zhang, Oluwatumininu Oguntola, Gedas Bertasius
                       <br>
-                      <em>arXiv, 2025</em>
+                      <em>NeurIPS 2025, Datasets and Benchmarks Track</em>
                       <br>
                       <a href="https://texaser.github.io/exact_project_page/"
                         target="+black">Project Page</a>
